@@ -1,5 +1,6 @@
 //TODO: Import required classes to run tests
-const SVG = require('./Develop/lib/svg.js');
+const {Circle, Triangle, Square} = require("../lib/shapes");
+const SVG = require('../lib/svg');
 
 test("should render a 300 x 200 svg element", () => {
   const expectedSvg =
