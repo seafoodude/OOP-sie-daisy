@@ -68,7 +68,9 @@ class SVG {
             const text = answers['text'];
             const textColor = answers['text-color'];
 
-            const shape = new shapeClass(shapeColor);
+            const shape = new shapeClass();
+            shape.setColor(shapeColor);
+            console.log(shape);
             this.setShape(shape);
             this.setText(text, textColor);
 
