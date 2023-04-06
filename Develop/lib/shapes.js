@@ -13,8 +13,9 @@ class Shape {
 }
 
 class Circle extends Shape {
-    constructor() {
+    constructor(color) {
         super();
+        this.setColor(color);
         this.fillColor = this.color;
         this.radius = 80;
         this.x = 150;
@@ -31,8 +32,9 @@ class Circle extends Shape {
 }
 
 class Triangle extends Shape {
-    constructor() {
+    constructor(color) {
         super();
+        this.setColor(color);
         this.fillColor = this.color;
         this.points = "150, 18 244, 182 56, 182";
     }
@@ -47,8 +49,9 @@ class Triangle extends Shape {
 }
 
 class Square extends Shape {
-    constructor() {
+    constructor(color) {
         super();
+        this.setColor(color);
         this.fillColor = this.color;
         this.width = 120;
         this.height = 120;
