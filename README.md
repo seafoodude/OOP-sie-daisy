@@ -31,7 +31,7 @@
 
   ## Screenshots
 
-  [screencastify](https://drive.google.com/file/d/1paXDsDpi7CkqOB5ptORXdJ95F53lS42f/view)
+  [screencastify](https://drive.google.com/file/d/1n6rtyIxn7xxfOwga70NyGUjE8i1dXTan/view)
 
   ![Screenshot of README](./Assets/logogenerator.PNG)
 
